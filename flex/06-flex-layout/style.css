@@ -48,21 +48,40 @@ a {
   flex-wrap: nowrap;
 }
 
-.left-links-header {
-  display: block;
-}
-
-.right-links-header {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
 .llh,
 .rlh {
   display: flex;
   padding: 0 15px;
+  gap: 20px;
 }
 
-.links-header {
+/* .links-header {
   padding: 0 15px;
+} */
+
+/* Content */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.llf,
+.rlf {
+  display: flex;
+  padding: 0 15px;
+  gap: 15px;
 }
